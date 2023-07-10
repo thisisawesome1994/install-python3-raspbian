@@ -12,4 +12,5 @@ make -j 4
 make altinstall
 echo "alias python=/usr/local/bin/python3.11" >> ~/.bashrc
 source ~/.bashrc
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11
 ```
