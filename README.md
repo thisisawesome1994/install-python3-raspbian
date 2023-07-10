@@ -10,6 +10,6 @@ cd Python-3.11.4
 ./configure --enable-optimizations
 make -j 4
 make altinstall
-echo "alias python=/usr/local/bin/python3.11.4" >> ~/.bashrc
+echo "alias python=/usr/local/bin/python3.11" >> ~/.bashrc
 source ~/.bashrc
 ```
